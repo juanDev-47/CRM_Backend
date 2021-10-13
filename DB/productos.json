@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6158ecf7c53bc0558c69b4b8"
+  },
+  "nombre": "Camisa JS Advance",
+  "precio": 45000,
+  "imagen": "8ajURrlvn.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6158ee8ac53bc0558c69b4ba"
+  },
+  "nombre": "Camisa angular",
+  "precio": 40000,
+  "imagen": "LTXg4RJUL.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6158ef12c53bc0558c69b52d"
+  },
+  "nombre": "Camisa HTML",
+  "precio": 35000,
+  "imagen": "bTJQjSoSg.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "615916d58c9c0d614ccf1a7d"
+  },
+  "nombre": "Camisa sass",
+  "precio": 30000,
+  "imagen": "l-tJ5nF2J.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "616621aa5ca44a48c05c5969"
+  },
+  "nombre": "Camisa NodeJS",
+  "precio": 35000,
+  "imagen": "ymTnmdKeU.jpeg",
+  "__v": 0
+}]

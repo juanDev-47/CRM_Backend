@@ -4,7 +4,8 @@
   "description": "CRM Proyect",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js"
+    "develop": "nodemon ./index.js",
+    "start": "node ./index.js"
   },
   "author": "JuanDev-47",
   "license": "ISC",

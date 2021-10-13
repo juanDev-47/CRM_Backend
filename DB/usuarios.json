@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6160efb92b46274ec44a9b24"
+  },
+  "email": "correo@correo.com",
+  "nombre": "juan",
+  "password": "$2b$12$x6U9VSnUpQQEti1Ul94F6e7PW/MGcnjY9atGvvSrfNYBm/qIYPQRy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61662664dde6d97a686477be"
+  },
+  "email": "juanmanuel@udea.edu.com",
+  "nombre": "juan",
+  "password": "$2b$12$I72Tsziuhv7TLNvO3tWLBOe7JWomOTzp5LYyslGda9VqdAdkF0vnC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6166268adde6d97a686477c0"
+  },
+  "email": "maria.velez@udea.edu.com",
+  "nombre": "Maria Isabel",
+  "password": "$2b$12$DxurNBBIQWNRX7l4Uf.52.ZGfmBpxUU4UQ7DM102r34AzHuJLpV8q",
+  "__v": 0
+}]

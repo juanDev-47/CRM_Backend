@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "615a42a363c3b74e60729d32"
+  },
+  "nombre": "Pablo",
+  "apellido": "arenas",
+  "empresa": "Randall S.A",
+  "email": "juan1037av@gmail.com",
+  "telefono": "311337",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6164ea00513883629482fd0f"
+  },
+  "nombre": "Juan Manuel",
+  "apellido": "Grajales Urquijo",
+  "empresa": "UDEA ingenieria",
+  "email": "juanmanuel@gmail.com",
+  "telefono": "3113328454",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61661c532a392a5a10994469"
+  },
+  "nombre": "Maria Isabel",
+  "apellido": "Rua Velez",
+  "empresa": "Ingenieros de Antioquia",
+  "email": "maria.rua@gmail.com",
+  "telefono": "3113223443",
+  "__v": 0
+}]

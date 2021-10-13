@@ -2,7 +2,7 @@ const express = require('express');
 const routes = require('./routes');
 // const mongoose = require('mongoose');
 require('./config/db');
-require('dotenv').config({path: 'variables.env'});
+require('dotenv').config();
 
 // CORS permite que un cliente se conecte a otro servidor para el intercambio de recursos
 const cors = require('cors');
@@ -39,5 +39,10 @@ app.use('/', routes());
 // carpeta publica
 app.use(express.static('uploads'));
 
+
+const host = process.env.HOST || '0.0.0.0';
+const port = process.env.PORT || 5000;
 // puerto
-app.listen(process.env.PORT || 5000);
+app.listen(port, host, () => {
+    console.log('el servidor esta ejecutandose');
+});
