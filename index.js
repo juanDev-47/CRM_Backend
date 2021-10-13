@@ -11,6 +11,9 @@ const cors = require('cors');
 // crear el servidor 
 const app = express();
 
+// carpeta publica
+app.use(express.static('uploads'));
+
 // leer objetos json
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
@@ -36,8 +39,7 @@ app.use(cors(corsOption));
 // rutas de la app
 app.use('/', routes());
 
-// carpeta publica
-app.use(express.static('uploads'));
+
 
 
 const host = process.env.HOST || '0.0.0.0';
